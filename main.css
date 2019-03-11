@@ -1,0 +1,94 @@
+/*h1 {
+	color: red;
+	font-size: 60px;
+	font-family: Arial;
+	text-align: center;
+}*/
+
+body {
+	background: linear-gradient(15deg, #6ea4ec, #ec6e7b, #365723, #6dfaec, #cf936e) ;
+}
+
+.header {
+	color: #ff00ff;
+	font-size: 50px;
+	font-family: Laila;
+}
+
+#messageform {
+	padding: 50px;
+}
+
+#title {
+	background: radial-gradient(#f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+	font-family: Laila;
+	padding: 200px 15% 200px 15%;
+	margin: 100px 10%;
+	text-align: center;
+	border: 5px dashed black;
+	transition-duration: 0.5s
+}
+
+#title:hover {
+	background: radial-gradient(#bc1888, #cc2366, #dc2743, #e6683c, #f09433);
+	color: white;
+
+}
+
+p {
+	color: yellow;
+	font-family: Laila;
+	text-align: center;
+}
+
+
+#header3 {
+	color:white;
+	font-size: 100px;
+	font-family: Laila;
+	background-color: black;
+	transition-duration: 0.5;
+}
+
+#header3:hover {
+	background-color: white;
+	color: black;
+}
+
+#hello {
+	display: block;
+	margin: auto;
+	width: 60%;
+	border-radius: 20px;
+	box-shadow: 5px; 
+}
+
+#div1 {
+	background-color: black;
+}
+
+#butt {
+	padding: 40px 60px;
+	font-size: 50px;
+	background: radial-gradient(#AAAAAA, #000000, #eedd7c, #6DFAEC, #6DFAEC);
+	transition-duration: 0.5s;
+	font-family: Laila;
+
+	border: solid;
+}
+
+#butt:hover {
+	background: radial-gradient(#6DFAEC, #6DFAEC, #eedd7c, #000000, #AAAAAA);
+	color: blue;
+	border: dashed;
+	transform: rotateZ(1deg) scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+	#header3 {
+		font-size: 25px;
+	}
+}
+
+
+
